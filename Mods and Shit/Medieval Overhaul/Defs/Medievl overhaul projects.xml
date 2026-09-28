@@ -2,6 +2,20 @@
 <Defs>
 
 	<ResearchProjectDef>
+		<defName>Ferny_ButchersBlock</defName>
+		<label>Butcher's block</label>
+		<description>Learn to build a simple wooden block fitted with a cleaver for butchering carcasses.</description>
+		<baseCost>100</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="ferny.progressionarsenal">Ferny_ButchersCleaver</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
 		<defName>Ferny_PackagedRations</defName>
 		<label>Packaged rations</label>
 		<description>Learn to prepare and package rations for long-term storage.</description>

@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+	<!-- Butcher's block progression -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_ButchersBlock"]</xpath>
+		<value>
+			<costList>
+				<DankPyon_MeleeWeapon_ButcherCleaver>1</DankPyon_MeleeWeapon_ButcherCleaver>
+			</costList>
+			<researchPrerequisites>
+				<li>Ferny_ButchersBlock</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="TableButcher"]/costList</xpath>
+		<value>
+			<DankPyon_MeleeWeapon_ButcherCleaver>1</DankPyon_MeleeWeapon_ButcherCleaver>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="Ferny_ButcherTable"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				<li>Ferny_ButchersBlock</li>
+			</prerequisites>
+		</value>
+	</Operation>
+
 
 <!-- July 4 2026 -->
 
