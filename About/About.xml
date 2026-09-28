@@ -1,60 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Progression: Kitchen</name>
-	<author>ferny</author>
-	<packageId>ferny.progressionkitchen</packageId>
-	<supportedVersions>
-		<li>1.5</li>
-		<li>1.6</li>
-	</supportedVersions>
-	<modDependencies>
-		<li>
-			<packageId>ferny.ReplaceLib</packageId>
-			<displayName>ReplaceLib</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2329011599</steamWorkshopUrl>
-		</li>
-	</modDependencies>
-	<description>Integrates food into the grander Rimworld ecosystem.</description>
-	<loadAfter>
-		<li>Ludeon.Rimworld</li>
-		<li>Ludeon.Rimworld.Royalty</li>
-		<li>Ludeon.Rimworld.Ideology</li>
-		<li>Ludeon.Rimworld.Biotech</li>
-		<li>Ludeon.Rimworld.Anomaly</li>
-		<li>dankpyon.medieval.overhaul</li>
-		<li>det.sbdelights</li>
-		<li>vanillaexpanded.vcookestews</li>
-		<li>vanillaexpanded.vcookesushi</li>
-		<li>vanillaexpanded.vbrewe</li>
-		<li>vanillaexpanded.vbrewecandt</li>
-		<li>vanillaexpanded.vcooke</li>
-		<li>scpchemfuel.appliances</li>
-		<li>VanillaExpanded.VChemfuelE</li>
-		<li>ferny.generallymoreresearch</li>
-		<li>talias.VFEHardleatherConcrete</li>
-		<li>argon.vcemp</li>
-		<li>oskarpotocki.vfe.classical</li>
-		<li>OskarPotocki.VFE.Tribals</li>
-		<li>vanillaexpanded.vfeproduction</li>
-		<li>vanillaexpanded.helixiengas</li>
-		<li>CiXwOw.HelixienGasProduction</li>
-		<li>syrchalis.processor.framework</li>
-		<li>det.keshig</li>
-		<li>ferny.replacelib</li>
-		<li>sarg.alphacrafts</li>
-		<li>OskarPotocki.VFE.Medieval2</li>
-		<li>VanillaExpanded.VCookEHaute</li>
-		<li>Van.Beasts</li>
-		<li>veterano.mythicages.megafaunabestiary</li>
-		<li>ponpeco.PonpecoPajamas</li>
-		<li>Papito.MedicinesPlus.AT</li>
-		<li>erin.cottagecollection</li>
-		<li>badoaks.MeatOnAStick</li>
-		<li>badoaks.MeatOnAStick.expansion</li>
-		<!-- <li>ferny.betterarchitect</li> -->
-		<li>ferny.progressioncore</li>
-		<!-- <li>ferny.progressionarsenal</li> -->
-		<!-- <li>vanillaexpanded.vplantsemore</li> -->
-		<li>badoaks.meatonastick.expansion</li>
-	</loadAfter>
+  <name>ProgressionLESS: Kitchen</name>
+  <author>Cruesoe</author>
+  <packageId>crues.progressionlesskitchen</packageId>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Integrates food into the grander RimWorld ecosystem.
+
+Forked from Progression: Kitchen by ferny: https://steamcommunity.com/sharedfiles/filedetails/?id=3424640315
+Huge thanks to ferny for the original mod and all the Progression work this builds on. Replaces the original; do not use both.
+
+For a really good modpack, check out The Progression Modpack: https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585</description>
+  <modDependencies>
+    <li>
+      <packageId>ferny.ReplaceLib</packageId>
+      <displayName>ReplaceLib</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2329011599</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <incompatibleWith>
+    <li>ferny.progressionkitchen</li>
+  </incompatibleWith>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>dankpyon.medieval.overhaul</li>
+    <li>det.sbdelights</li>
+    <li>vanillaexpanded.vcookestews</li>
+    <li>vanillaexpanded.vcookesushi</li>
+    <li>vanillaexpanded.vbrewe</li>
+    <li>vanillaexpanded.vbrewecandt</li>
+    <li>vanillaexpanded.vcooke</li>
+    <li>scpchemfuel.appliances</li>
+    <li>VanillaExpanded.VChemfuelE</li>
+    <li>ferny.generallymoreresearch</li>
+    <li>talias.VFEHardleatherConcrete</li>
+    <li>argon.vcemp</li>
+    <li>oskarpotocki.vfe.classical</li>
+    <li>OskarPotocki.VFE.Tribals</li>
+    <li>vanillaexpanded.vfeproduction</li>
+    <li>vanillaexpanded.helixiengas</li>
+    <li>CiXwOw.HelixienGasProduction</li>
+    <li>syrchalis.processor.framework</li>
+    <li>det.keshig</li>
+    <li>ferny.replacelib</li>
+    <li>sarg.alphacrafts</li>
+    <li>OskarPotocki.VFE.Medieval2</li>
+    <li>VanillaExpanded.VCookEHaute</li>
+    <li>Van.Beasts</li>
+    <li>veterano.mythicages.megafaunabestiary</li>
+    <li>ponpeco.PonpecoPajamas</li>
+    <li>Papito.MedicinesPlus.AT</li>
+    <li>erin.cottagecollection</li>
+    <li>badoaks.MeatOnAStick</li>
+    <li>badoaks.MeatOnAStick.expansion</li>
+    <!-- <li>ferny.betterarchitect</li> -->
+    <li>ferny.progressioncore</li>
+    <!-- <li>ferny.progressionarsenal</li> -->
+    <!-- <li>vanillaexpanded.vplantsemore</li> -->
+  </loadAfter>
 </ModMetaData>
