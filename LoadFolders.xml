@@ -1,6 +1,7 @@
 <loadFolders>
-  <v1.5>
+  <v1.6>
     <li>/</li>
+    <li IfModActive="ferny.noderesearch">Mods and Shit/Node Research</li>
     <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
     <li IfModActiveAll="Ludeon.RimWorld.Biotech,OskarPotocki.VFE.Tribals">Mods and Shit/Biotech</li>
 	<li IfModActive="OskarPotocki.VFE.Tribals">Mods and Shit/VFE Tribals</li>
@@ -37,5 +38,5 @@
     <li IfModActiveAll="vanillaexpanded.vcooke,vanillaexpanded.vbrewe">Mods and Shit/VCE + VBE</li>
     <li IfModActiveAll="argon.vcemp">Mods and Shit/VCE Argon Meals Patch</li>
     <li IfModActive="badoaks.meatonastick.expansion">Mods and Shit/Meat On A Stick Expansion</li>
-  </v1.5>
+  </v1.6>
 </loadFolders>
