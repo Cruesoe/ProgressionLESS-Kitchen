@@ -60,7 +60,8 @@
         <xpath>/Defs/ThingDef[defName="talias_ElectricCheesePress"]/researchPrerequisites</xpath>
         <value>
           <researchPrerequisites>
-            <li>Ferny_ElectricCheesePress</li>
+            <li>Electricity</li>
+            <li>DankPyon_Presser</li>
           </researchPrerequisites>
         </value>
       </li>

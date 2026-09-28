@@ -8,14 +8,14 @@
       <li Class="PatchOperationReplace">
         <xpath>Defs/RecipeDef[defName="DV_MakeGoreMust"]/researchPrerequisite</xpath>
         <value>
-          <researchPrerequisite>Ferny_GorewineBrewing</researchPrerequisite>
+          <researchPrerequisite>Brewing</researchPrerequisite>
         </value>
       </li>
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="DV_BloodwineBarrel"]/researchPrerequisites</xpath>
         <value>
           <researchPrerequisites>
-            <li>Ferny_GorewineBrewing</li>
+            <li>Brewing</li>
           </researchPrerequisites>
         </value>
       </li>

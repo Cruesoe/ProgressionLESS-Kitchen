@@ -20,7 +20,8 @@
                     <xpath>/Defs/ThingDef[defName="VCE_SushiPrepTable"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Ferny_Sushi</li>
+                            <li>ComplexFurniture</li>
+                            <li>Ferny_FueledStove</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -32,7 +33,8 @@
                     <xpath>/Defs/ThingDef[defName="VCE_SushiPrepTable"]</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Ferny_Sushi</li>
+                            <li>ComplexFurniture</li>
+                            <li>Ferny_FueledStove</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -76,7 +78,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="VCE_WasabiPaste"]/researchPrerequisite</xpath>
         <value>
-            <researchPrerequisite>Ferny_WasabiPaste</researchPrerequisite>
+            <researchPrerequisite>VCE_CondimentsResearch</researchPrerequisite>
         </value>
     </Operation>
 

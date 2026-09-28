@@ -33,14 +33,14 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/RecipeDef[defName="MA_Make_Duskyakult"]</xpath>
     <value>
-      <researchPrerequisite>Ferny_DuskyakultBrewing</researchPrerequisite>
+      <researchPrerequisite>Brewing</researchPrerequisite>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/RecipeDef[defName="MA_Make_Caprodka"]</xpath>
     <value>
-      <researchPrerequisite>Ferny_CaprodkaBrewing</researchPrerequisite>
+      <researchPrerequisite>Brewing</researchPrerequisite>
     </value>
   </Operation>
 

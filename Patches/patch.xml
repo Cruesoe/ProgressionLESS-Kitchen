@@ -65,7 +65,8 @@
                     <xpath>/Defs/ThingDef[defName="ElectricStove"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_ElectricStove</li>
+                        <li>Electricity</li>
+                        <li>Ferny_FueledStove</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -73,7 +74,8 @@
                     <xpath>/Defs/ThingDef[defName="ElectricStove"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_ElectricStove</li>
+                        <li>Electricity</li>
+                        <li>Ferny_FueledStove</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>

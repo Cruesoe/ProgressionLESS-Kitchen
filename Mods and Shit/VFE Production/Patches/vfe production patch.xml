@@ -15,7 +15,8 @@
 			<xpath>/Defs/ThingDef[defName="VFE_TableButcherElectric"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_ElectricButcher</li>
+					<li>Electricity</li>
+					<li>Ferny_ButcherTable</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -23,7 +24,8 @@
 			<xpath>/Defs/ThingDef[defName="VFE_TableButcherElectric"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_ElectricButcher</li>
+					<li>Electricity</li>
+					<li>Ferny_ButcherTable</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -34,7 +36,9 @@
 		<xpath>/Defs/ThingDef[defName="VFE_TableStoveLarge"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_LargeStove</li>
+				<li>Fabrication</li>
+				<li>Electricity</li>
+				<li>Ferny_FueledStove</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

@@ -12,7 +12,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="VCE_HotSauce"]/researchPrerequisite</xpath>
         <value>
-            <researchPrerequisite>Ferny_HotSauce</researchPrerequisite>
+            <researchPrerequisite>VCE_CondimentsResearch</researchPrerequisite>
         </value>
     </Operation>
 

@@ -5,7 +5,9 @@
 		<xpath>/Defs/ThingDef[defName="VFE_TableStoveLargeGas"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_LargeGasPoweredStove</li>
+				<li>Fabrication</li>
+				<li>VHGE_GasExtraction</li>
+				<li>Ferny_FueledStove</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
