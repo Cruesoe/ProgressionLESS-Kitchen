@@ -5,7 +5,7 @@
 	<ResearchProjectDef>
 		<defName>Ferny_ButcherTable</defName>
 		<label>Butcher table</label>
-		<description>Construct a heavy table for butchering dead creatures into pieces of raw meat for meal preperation.</description>
+		<description>Construct a heavy table for butchering dead creatures into pieces of raw meat for meal preparation.</description>
 		<baseCost>500</baseCost>
 		<tab>Main</tab>
 		<techLevel>Neolithic</techLevel>

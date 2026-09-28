@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Simple meals description includes the flour and sugar milling it unlocks with Medieval Overhaul -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_SimpleMeals"]/description</xpath>
+    <value>
+      <description>Learn to prepare basic meals that will satiate your colonists, and to mill flour and sugar.</description>
+    </value>
+  </Operation>
+
+</Patch>
