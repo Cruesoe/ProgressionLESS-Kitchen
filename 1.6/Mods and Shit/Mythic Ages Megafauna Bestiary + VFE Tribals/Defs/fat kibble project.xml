@@ -11,7 +11,7 @@
 		<researchViewX>4.00</researchViewX>
 		<researchViewY>0.70</researchViewY>
 		<prerequisites>
-			<li>Ferny_Kibble</li>
+			<li>VFET_AnimalHandling</li>
 		</prerequisites>
 	</VFETribals.TribalResearchProjectDef>
 

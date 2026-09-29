@@ -5,14 +5,14 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/RecipeDef[defName="Make_BabyFood"]</xpath>
     <value>
-      <researchPrerequisite>Ferny_BabyFood</researchPrerequisite>
+      <researchPrerequisite>VFET_Fire</researchPrerequisite>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/RecipeDef[defName="Make_BabyFoodBulk"]</xpath>
     <value>
-      <researchPrerequisite>Ferny_BabyFood</researchPrerequisite>
+      <researchPrerequisite>VFET_Fire</researchPrerequisite>
     </value>
   </Operation>
 
