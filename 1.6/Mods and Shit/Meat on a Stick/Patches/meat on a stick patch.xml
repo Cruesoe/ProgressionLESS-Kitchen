@@ -49,12 +49,7 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/RecipeDef[defName="CookFungusOnAStick4"]/recipeUsers/li[.="Campfire"]</xpath>
   </Operation>
-  <Operation Class="PatchOperationRemove">
-    <xpath>Defs/RecipeDef[defName="moas_CookStick"]/recipeUsers/li[.="Campfire"]</xpath>
-  </Operation>
-  <Operation Class="PatchOperationRemove">
-    <xpath>Defs/RecipeDef[defName="moas_CookStick4"]/recipeUsers/li[.="Campfire"]</xpath>
-  </Operation>
+  <!-- moas_CookStick and moas_CookStick4 are removed outright by the Meat On A Stick Expansion folder's patch -->
 
   <!-- None of the 8 original meal items (base "meat" plus the Expansion's 7 typed variants) can be
        cooked anymore, so they're just clutter as separate stockpile/bill filter checkboxes now. None
