@@ -10,7 +10,7 @@
 			</costList>
 			<researchPrerequisites>
 				<li>Ferny_ButcherTable</li>
-				<li MayRequire="ferny.progressionarsenal">Ferny_ButchersCleaver</li>
+				<li MayRequireAnyOf="ferny.progressionarsenal,cruesoe.progressionlessarsenal">Ferny_ButchersCleaver</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -27,7 +27,7 @@
 		<value>
 			<prerequisites>
 				<li>Ferny_ButcherTable</li>
-				<li MayRequire="ferny.progressionarsenal">Ferny_ButchersCleaver</li>
+				<li MayRequireAnyOf="ferny.progressionarsenal,cruesoe.progressionlessarsenal">Ferny_ButchersCleaver</li>
 			</prerequisites>
 		</value>
 	</Operation>
