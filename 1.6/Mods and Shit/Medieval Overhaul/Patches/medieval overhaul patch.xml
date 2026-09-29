@@ -10,7 +10,8 @@
 			</costList>
 			<researchPrerequisites>
 				<li>Ferny_ButcherTable</li>
-				<li MayRequireAnyOf="ferny.progressionarsenal,cruesoe.progressionlessarsenal">Ferny_ButchersCleaver</li>
+				<li MayRequire="ferny.progressionarsenal">Ferny_ButchersCleaver</li>
+				<li MayRequire="cruesoe.progressionlessarsenal">Ferny_Spear</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -26,8 +27,8 @@
 		<xpath>/Defs/ResearchProjectDef[defName="Ferny_ButcherTable"]/prerequisites</xpath>
 		<value>
 			<prerequisites>
-				<li>Ferny_ButcherTable</li>
-				<li MayRequireAnyOf="ferny.progressionarsenal,cruesoe.progressionlessarsenal">Ferny_ButchersCleaver</li>
+				<li MayRequire="ferny.progressionarsenal">Ferny_ButchersCleaver</li>
+				<li MayRequire="cruesoe.progressionlessarsenal">Ferny_Spear</li>
 			</prerequisites>
 		</value>
 	</Operation>
