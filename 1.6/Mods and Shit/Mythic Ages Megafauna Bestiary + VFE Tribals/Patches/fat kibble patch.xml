@@ -8,13 +8,13 @@
 				<match Class="PatchOperationReplace">
 					<xpath>/Defs/RecipeDef[defName="Make_MA_Fatkibble"]/researchPrerequisite</xpath>
 					<value>
-						<researchPrerequisite>Ferny_FatKibble</researchPrerequisite>
+						<researchPrerequisite>VFET_AnimalHandling</researchPrerequisite>
 					</value>
 				</match>
 				<nomatch Class="PatchOperationAdd">
 					<xpath>/Defs/RecipeDef[defName="Make_MA_Fatkibble"]</xpath>
 					<value>
-						<researchPrerequisite>Ferny_FatKibble</researchPrerequisite>
+						<researchPrerequisite>VFET_AnimalHandling</researchPrerequisite>
 					</value>
 				</nomatch>
 			</li>
@@ -23,13 +23,13 @@
 				<match Class="PatchOperationReplace">
 					<xpath>/Defs/RecipeDef[defName="Make_MA_FatkibbleBulk"]/researchPrerequisite</xpath>
 					<value>
-						<researchPrerequisite>Ferny_FatKibble</researchPrerequisite>
+						<researchPrerequisite>VFET_AnimalHandling</researchPrerequisite>
 					</value>
 				</match>
 				<nomatch Class="PatchOperationAdd">
 					<xpath>/Defs/RecipeDef[defName="Make_MA_FatkibbleBulk"]</xpath>
 					<value>
-						<researchPrerequisite>Ferny_FatKibble</researchPrerequisite>
+						<researchPrerequisite>VFET_AnimalHandling</researchPrerequisite>
 					</value>
 				</nomatch>
 			</li>
