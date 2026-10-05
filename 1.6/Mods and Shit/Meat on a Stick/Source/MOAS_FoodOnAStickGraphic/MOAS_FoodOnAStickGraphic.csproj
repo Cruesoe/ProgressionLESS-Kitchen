@@ -1,6 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
     <TargetFramework>net472</TargetFramework>
     <RootNamespace>ProgressionKitchen.MeatOnAStick</RootNamespace>
     <AssemblyName>MOAS_FoodOnAStickGraphic</AssemblyName>
