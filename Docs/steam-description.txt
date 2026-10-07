@@ -1,9 +1,8 @@
-[h1]ProgressionLESS: Kitchen[/h1]
 [b]All the Progression goodness, less research.[/b]
 
 [i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3424640315]Progression: Kitchen[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
 
-[h2]What it does[/h2]
+[h2]Features[/h2]
 [list]
 [*]Integrates food into the grander RimWorld ecosystem, with cooking that unlocks through its tech eras.
 [*]Cooking starts with simple meals and a fueled stove, then climbs through fine, lavish and gourmet meals.
@@ -13,36 +12,38 @@
 [h2]Why "LESS"?[/h2]
 Progression: Kitchen adds up to [b]47 research projects[/b] depending on your food mods. This fork cuts that to [b]at most 7[/b], and keeps ferny's meal tiers:
 [list]
-[*][b]Simple meals[/b], [b]Fueled stove[/b], [b]Fine meals[/b], [b]Lavish meals[/b] and [b]Butcher table[/b] (Neolithic)
-[*][b]Gourmet meals[/b] (Neolithic, with Vanilla Cooking Expanded)
-[*][b]Chemfuel stove[/b] (Industrial, with Appliances Expanded and Vanilla Chemfuel Expanded)
+[*][b]Simple meals[/b], [b]Fueled stove[/b], [b]Fine meals[/b], [b]Lavish meals[/b] and [b]Butcher table[/b] (Neolithic).
+[*][b]Gourmet meals[/b] (Neolithic, with Vanilla Cooking Expanded).
+[*][b]Chemfuel stove[/b] (Industrial, with Appliances Expanded and Vanilla Chemfuel Expanded).
 [/list]
 Everything else unlocks with the research it already builds on:
 [list]
-[*]Ales, ciders, wines, mead and other drinks: [b]Brewing[/b]
-[*]Packaged rations: [b]Pemmican[/b]
-[*]Condiments: [b]Vanilla Cooking Expanded's condiments research[/b]
-[*]Bakes and desserts: the matching meal tier
-[*]Flour and sugar milling: [b]Simple meals[/b]
-[*]Electric stove, electric butcher and electric cheese press: [b]Electricity[/b]
-[*]Large stoves: [b]Fabrication[/b]
+[*]Ales, ciders, wines, mead and other drinks: [b]Brewing[/b].
+[*]Packaged rations: [b]Pemmican[/b].
+[*]Condiments: [b]Vanilla Cooking Expanded's condiments research[/b].
+[*]Bakes and desserts: the matching meal tier.
+[*]Flour and sugar milling: [b]Simple meals[/b].
+[*]Electric stove, electric butcher and electric cheese press: [b]Electricity[/b].
+[*]Large stoves: [b]Fabrication[/b].
 [/list]
 Everything stays in the same era, and still needs the other research it did before.
 
 [h2]Compatibility[/h2]
 Keeps all of the original's mod support:
 [list]
-[*]Vanilla Cooking Expanded, plus Stews, Sushi and Haute, and the carnivore/vegetarian meals patch
-[*]Vanilla Brewing Expanded, plus Coffees and Teas
-[*]Vanilla Plants Expanded and More Plants
-[*]Vanilla Factions Expanded: Tribals, Classical, Medieval 2 and Production
-[*]Medieval Overhaul and House Roxmont
-[*]Appliances Expanded and Vanilla Chemfuel Expanded
-[*]Vanilla Helixien Gas Expanded and Helixien Gas Production
-[*]Industrial Hardleather Concrete and Cheese
-[*]Stoneborn Delights, Keshig, Dark Ages Beasts and Monsters, and Mythic Ages Megafauna Bestiary
-[*]Alpha Crafts, Ponpeco Pajamas, Medicines Plus and Meat on a Stick
-[*]Processor Framework, Biotech and Node Research
+[*]Vanilla Cooking Expanded, plus Stews, Sushi and Haute, and the carnivore/vegetarian meals patch.
+[*]Vanilla Brewing Expanded, plus Coffees and Teas.
+[*]Vanilla Plants Expanded and More Plants.
+[*]Vanilla Factions Expanded: Tribals, Classical, Medieval 2 and Production.
+[*]Medieval Overhaul and House Roxmont.
+[*]Appliances Expanded and Vanilla Chemfuel Expanded.
+[*]Vanilla Helixien Gas Expanded and Helixien Gas Production.
+[*]Industrial Hardleather Concrete and Cheese.
+[*]Stoneborn Delights, Keshig, Dark Ages Beasts and Monsters, and Mythic Ages Megafauna Bestiary.
+[*]Alpha Crafts, Ponpeco Pajamas, Medicines Plus and Meat on a Stick.
+[*]Processor Framework, Biotech and Node Research.
 [/list]
 
 [b]Replaces the original. Don't use both.[/b]
+
+[b]Switching mid-game isn't recommended.[/b] Many of the original's research projects are merged or removed, so swapping Progression: Kitchen for this fork in an existing save can lose research progress. Start a new game when you switch.
