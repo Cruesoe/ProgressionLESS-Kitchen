@@ -14,8 +14,8 @@
 		<baseCost>800</baseCost>
 		<tab>Main</tab>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>5.00</researchViewX>
-		<researchViewY>11.00</researchViewY>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>8.20</researchViewY>
 		<prerequisites>
 			<li>Ferny_LavishMeals</li>
 		</prerequisites>
