@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>ProgressionKitchen.MeatOnAStick</RootNamespace>
+    <AssemblyName>MOAS_FoodOnAStickGraphic</AssemblyName>
+    <UseHarmony>false</UseHarmony>
+    <ModAssemblies>$(ModRepoRoot)$(RimWorldGameVersion)\Mods and Shit\Meat on a Stick\Assemblies\</ModAssemblies>
+  </PropertyGroup>
+</Project>
