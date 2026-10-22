@@ -78,7 +78,7 @@
 		<description>Refine your cooking to cook fantastic meals that will massively satisfy your colonists while greatly improving their mood.</description>
 		<baseCost>700</baseCost>
 		<tab>Main</tab>
-		<techLevel>Neolithic</techLevel>
+		<techLevel>Medieval</techLevel>
 		<researchViewX>12.00</researchViewX>
 		<researchViewY>8.20</researchViewY>
 		<!-- <tags>
