@@ -13,7 +13,7 @@
 		<description>Learn the process of making exquisite gourmet meals, bakes and desserts that will delight your colonists, and allow for condiments.</description>
 		<baseCost>800</baseCost>
 		<tab>Main</tab>
-		<techLevel>Neolithic</techLevel>
+		<techLevel>Industrial</techLevel>
 		<researchViewX>13.00</researchViewX>
 		<researchViewY>8.20</researchViewY>
 		<prerequisites>

@@ -44,6 +44,14 @@
       </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>Defs/ResearchProjectDef[defName="VCE_CondimentsResearch"]/techLevel</xpath>
+      <value>
+        <techLevel>Industrial</techLevel>
+      </value>
+  </Operation>
+
 
   <!-- condiment prep table -->
   <Operation Class="PatchOperationReplace">
